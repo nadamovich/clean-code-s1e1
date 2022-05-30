@@ -4,27 +4,27 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.header img {
   width: 100%;
 }
-.aaa .more-inf {
+.header .url {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .aaa {
+  .header {
     text-align: center;
   }
   
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -34,7 +34,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-element-wrapper {
   display: flex;
 }
 ul {
@@ -89,7 +89,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.firsth3 {
+.add-element-title {
   display: block;
   margin: 0 0 20px;
 }
@@ -143,11 +143,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li.task-editor-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul li.task-editor-mode label {
   display: none;
 }
